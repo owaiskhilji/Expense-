@@ -1,0 +1,125 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    }
+    body{
+        background-image: url(./222.png);
+    }
+    #h1{
+        text-align: center;
+        font-style: normal;
+        letter-spacing: -1px;
+        color: white;
+    }
+    h2{
+        color: white;
+    }
+    #expenses-list{
+        background-color: rgb(240,240,240);
+        height: 255px;
+        width: 800px;
+        overflow: auto;
+        overflow-x: auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+        box-shadow: 0 0 12px  rgb(20, 63, 117);
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #table{
+        width: inherit;
+    }
+    tr{
+        margin-bottom: 5px;
+    }
+    td{
+        text-align: center;
+         background-color:#8cc4fd;
+         color: rgb(255, 255,255);
+    cursor: pointer;
+    border: 1px solid black;
+        }
+    th{
+        background-color: #090a09;
+        color: white;
+        text-align: center;
+        height: 60px;
+    }
+    ::placeholder, input{
+    text-align: center;
+    }
+    
+    #input-section{
+        /* margin-left: 200%; */
+        background-color: black;
+        display: grid;
+        grid-template-columns: repeat(5 ,auto);
+        padding: 10px;
+        gap: 10px;
+        width: 60%;
+        margin-left: 19%;
+        box-shadow: 0 0 12px  rgb(6, 111, 240);    
+        border: 0;
+        border-radius: 10px;
+        
+    }
+    
+    /* grid-template-columns: repeat(2,auto); is input ko ek row me kitne lane h  */
+     #add-btn{
+        background-color: #8cc4fd;
+        color: white;
+        width: 12   0px;
+        height: 40px;
+        border: 0;
+        border-radius: 10px;
+        position: relative;
+        left : 20%;
+        place-self : center;
+        box-shadow: 0 0 20 black;
+    }
+    #add-btn:hover{
+        background-color: #4797f3;
+        /* transition: 2s; */
+    }
+    input, select{
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        height: 40px;
+    }
+    select{
+        text-align: center;
+    } 
+@media (max-width:500px){
+    body{
+        max-width: 500px;
+    }
+    #input-section{
+        /* max-width: 500px; */
+        grid-template-columns: repeat(1 ,auto);
+        /* margin-top: %; */
+        align-items: center;
+        width: 200px;
+    }   
+    #expenses-list{
+        margin-top: 25%;
+        width: 350px;
+        /* align-items: center; */
+    
+    }
+    h1{
+    width: 200px;
+    margin: auto;
+    margin-bottom: 5px;
+    font-size: x-large;
+        text-align: center;
+    }
+h2{
+    color: black;
+    margin-top: 20%;
+
+}
+}

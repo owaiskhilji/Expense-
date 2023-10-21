@@ -1,0 +1,92 @@
+body{
+    box-sizing: border-box;
+    background-image: url(./down12.jpg);
+}
+.main{
+}
+.h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+color: white;
+}
+.div-inp-btn{
+    text-align: center;
+
+}
+#semail{
+    width: 300px;
+    height: 20px;
+    border-block-start: 5px;
+border-left-style: none;
+border-right-style: none;
+border-color: white;
+color:black;
+background-color:transparent;
+}
+#spass{
+    width: 300px;
+    height: 20px;
+    border-block-start: 5px;
+border-left-style: none;
+border-right-style: none;
+border-color:white;
+color: white;
+background-color: transparent;
+}
+#btn{
+    width: 250px;
+    height: 30px;
+    font-weight:bold;
+ border: none;
+background-color: transparent;
+
+color: white;
+
+}
+#btn:hover{
+    border: 2px solid white;
+
+}
+
+
+/* welcome page ki css start */
+.h9{
+    color: white;
+    text-align: center;
+/* justify-content: center; */
+margin-top: 5%;
+}
+.h8{
+color: white;
+font-size:x-large;
+margin-left: 42%;
+}
+.btn5{
+    width: 250px;
+    height: 30px;
+    font-weight:bold;
+ border: none;
+background-color: black;
+
+color: white;
+
+}
+.btn5:hover{
+    border: 2px solid white;
+
+}
+@media (max-width:500px){
+    .h9{margin-top: 40%;
+        font-size: xxx-large;
+
+    }
+    .h8{
+        margin-left:20%;
+   font-size:x-large ;
+    }
+    .btn5{
+        margin-left:10%;
+        
+    }
+}
